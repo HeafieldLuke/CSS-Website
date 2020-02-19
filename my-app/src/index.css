@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    min-height: 100vh;
+    margin: 100;
+  }
