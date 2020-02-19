@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Logo }  from "./Website";
+import Logo  from "./components/Logo";
 import "./index.css";
  
 ReactDOM.render(
