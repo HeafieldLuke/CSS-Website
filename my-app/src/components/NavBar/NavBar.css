@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    margin-left: 68%;
+    width: 30%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #FC895C;
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    font-size: 125%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(153, 234, 250);
+    border-radius: 30px;
+  }
