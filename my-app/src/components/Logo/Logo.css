@@ -1,11 +1,11 @@
 .logo {
   display: inline-block;
-  height: 264px;
-  width: 204px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  height: 198px;
+  width: 153px;
+  left: calc(50% - 58px/2 - 561px);
+  top: 53px;
   position: fixed;
   overflow: hidden;
+  z-index: 1;
+  
 }

@@ -1,12 +1,17 @@
 ul {
     list-style-type: none;
-    margin: 10;
-    padding: 0;
     overflow: hidden;
-    background-color: white;
+    z-index: 1;
+
     position: fixed;
-    margin-left: 68%;
-    width: 30%;
+    top:53px;
+    padding: 0;
+    right: 369px;
+    width: 24%;
+    border-radius: 30px;
+
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
   }
   
   li {
@@ -16,15 +21,17 @@ ul {
   li a {
     display: block;
     color: #FC895C;
-    font-weight: 700;
-    font-family: 'Segoe UI';
-    font-size: 125%;
+
+    font-weight: 1000;
+    font-family: 'Lato';
+    font-size: 16px;
+
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(153, 234, 250);
+    background-color: #E6EDEF;
     border-radius: 30px;
   }
