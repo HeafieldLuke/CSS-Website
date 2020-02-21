@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import GeoLeopard from "../../images/GeoLeopard.svg"
+import GeoLeopard from "../../images/GeoLeopard.svg";
 
 class Home extends Component {
   render() {
