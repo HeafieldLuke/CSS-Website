@@ -5,15 +5,16 @@ import GeoLeopard from "../../images/GeoLeopard.svg";
 class Home extends Component {
   render() {
     return (
-        <div className="container">
-            <div className="home_paragraph">
-                <p>
-                   Computer Science Society
-                </p>
+        <div className="section" id ="home">
+            <div className="section-content">
+                <h1>
+                   Home
+                </h1>
+                <div>
+                  <img src= {GeoLeopard} alt= "GeoLeopard" className="leopard"/>
+                </div>
             </div>
-            <div className ="home">
-                <img src= {GeoLeopard} alt= "GeoLeopard" className="leopard"/>
-            </div>
+            
         </div>
     );
   }

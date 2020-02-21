@@ -1,10 +1,13 @@
+.section {
+}
 
-.home{
-    position: absolute;
-    width: 1151px;
-    height: 70px;
-    left: calc(50% - 1151px/2 - 14.5px);
-    top: 230px;
+.section-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 400px;
+    padding-top: 425px;
+    padding-left: 925px;
+    padding-right: 925px;
 }
 
 .leopard{

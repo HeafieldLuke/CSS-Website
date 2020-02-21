@@ -1,18 +1,63 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import "./NavBar.css";
 
 class NavBar extends Component {
   render() {
     return (
-      <div className="container">
+      <nav className="container">
        <ul id="nav" className="nav">
-          <li><a href="#Resource">Resource</a></li>
-          <li><a href="#Eboard">Eboard</a></li>
-          <li><a href="#Community">Community</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Home">Home</a></li>
+       <li>
+        <Link
+          activeClass="active"
+          to="resource"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>Resource</Link>
+        </li>
+
+        <li>
+        <Link
+          activeClass="active"
+          to="eboard"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>Eboard</Link>
+        </li>
+
+        <li>
+        <Link
+          activeClass="active"
+          to="community"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>Community</Link>
+        </li>
+
+        <li>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>About</Link>
+        </li>
+
+        <li>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration= {500}>Home</Link>
+        </li>
       </ul>
-      </div>
+      </nav>
     );
   }
 }
