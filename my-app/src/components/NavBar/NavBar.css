@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow:300,400,700&display=swap');
 ul {
     list-style-type: none;
     overflow: hidden;
     z-index: 1;
-
     position: fixed;
     top:53px;
-    padding: 0;
+    padding: 0px;
     right: 350px;
-    width: 24%;
+    width: 26.09%;
     border-radius: 30px;
 
     background-color: white;
@@ -23,7 +23,7 @@ ul {
     color: #FC895C;
 
     font-weight: 1000;
-    font-family: 'Lato';
+    font-family: 'Tomorrow';
     font-size: 16px;
 
     text-align: center;

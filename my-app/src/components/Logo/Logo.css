@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Tomorrow:300,400,700&display=swap');
+
 .logo {
   display: inline-block;
   height: 198px;
@@ -7,4 +9,29 @@
   position: fixed;
   overflow: hidden;
   z-index: 1;
+}
+.title{
+  display: inline-block;
+  z-index: 1;
+  height: 198px;
+  width: 153px;
+  left: 550px;
+  top: 75px;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  font-weight: 1000;
+  font-family: 'Josefin Sans';
+  font-size: 32px;
+  color: #A1D1C7;
+}
+
+.leopard{
+  display: inline-block;
+  z-index: -1;
+  opacity: 0.15;
+  height: 198px;
+  width: 153px;
+  left: 550px;
+  top: 50px;
 }

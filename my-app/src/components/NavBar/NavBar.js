@@ -13,7 +13,7 @@ class NavBar extends Component {
           to="resource"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {500}>Resource</Link>
         </li>
 
@@ -23,7 +23,7 @@ class NavBar extends Component {
           to="eboard"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {500}>Eboard</Link>
         </li>
 
@@ -33,7 +33,7 @@ class NavBar extends Component {
           to="community"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {500}>Community</Link>
         </li>
 
@@ -43,7 +43,7 @@ class NavBar extends Component {
           to="about"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {500}>About</Link>
         </li>
 
@@ -53,7 +53,7 @@ class NavBar extends Component {
           to="home"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration= {500}>Home</Link>
         </li>
       </ul>
