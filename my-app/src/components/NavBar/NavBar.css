@@ -4,11 +4,13 @@ ul {
     overflow: hidden;
     z-index: 1;
     position: fixed;
-    top:53px;
+    top:4%;
     padding: 0px;
-    right: 350px;
-    width: 26.09%;
+    right: 9%;
     border-radius: 30px;
+    margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;  
 
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
@@ -29,6 +31,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   li a:hover:not(.active) {

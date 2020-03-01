@@ -8,7 +8,7 @@ class Logo extends Component {
       <div className="container">
         <img src= {logo} alt= "CSS_Logo" className="logo"/>
         <p className="title">
-        CSS WIT
+        Computer Science Society
         </p>
       </div>
     );

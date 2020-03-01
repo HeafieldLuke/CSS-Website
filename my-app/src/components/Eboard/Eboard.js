@@ -4,11 +4,13 @@ import "./Eboard.css";
 class Eboard extends Component {
   render() {
     return (
-        <article className="section" id ="eboard">
-            <div className="eboard">
-            <h1>Eboard</h1>
+        <div  id ="eboard">
+            <div className="section-content">
+            <h1 className ="about-paragraph">
+              Eboard
+              </h1>
             </div>
-        </article>
+        </div>
     );
   }
 }
