@@ -3,7 +3,7 @@
 .logo {
   display: inline-block;
   height: 198px;
-  width: 153px;
+  width: 160px;
   left: calc(50% - 58px/2 - 561px);
   right: calc(50% - 58px/2 - 561px);
   top: 53px;
@@ -15,16 +15,16 @@
   display: inline-block;
   z-index: 1;
   height: 198px;
-  width: 153px;
+  width: 200px;
   left: calc(60% - 58px/2 - 561px);
-  right: calc(50% - 58px/2 - 561px);
-  top: 50px;
+  right: calc(60% - 58px/2 - 561px);
+  top: 40px;
   position: absolute;
   overflow: hidden;
   z-index: 1;
   font-weight: 1000;
   font-family: 'Josefin Sans';
-  font-size: 32px;
+  font-size: 40px;
   color: #A1D1C7;
 }
 

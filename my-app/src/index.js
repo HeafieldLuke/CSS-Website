@@ -16,7 +16,7 @@ class App extends React.Component{
                     <NavBar/>
                     <Logo/>
                     <Home/>
-                    <About/>
+
                 </div>
         )
     }

@@ -7,6 +7,17 @@ class NavBar extends Component {
     return (
       <nav className="container">
        <ul id="nav" className="nav">
+
+      <li>
+      <Link
+        activeClass="active"
+        to="join"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration= {500}>Join</Link>
+      </li>
+
        <li>
         <Link
           activeClass="active"
@@ -27,15 +38,7 @@ class NavBar extends Component {
           duration= {500}>Eboard</Link>
         </li>
 
-        <li>
-        <Link
-          activeClass="active"
-          to="community"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration= {500}>Community</Link>
-        </li>
+        
 
         <li>
         <Link

@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
         <div id ="about">
-            <div className="section-content">
+            <div className="about-section-content">
                 <h2 className ="about-paragraph">
                   About
                 </h2>

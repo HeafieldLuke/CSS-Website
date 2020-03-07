@@ -6,7 +6,7 @@ ul {
     position: fixed;
     top:4%;
     padding: 0px;
-    right: 9%;
+    right: 15%;
     border-radius: 30px;
     margin-right: auto;    
     margin-left: auto;    
@@ -18,11 +18,13 @@ ul {
   
   li {
     float: right;
+    z-index: 1;
   }
   
   li a {
     display: block;
     color: #FC895C;
+    z-index: 1;
 
     font-weight: 1000;
     font-family: 'Tomorrow';
@@ -35,6 +37,7 @@ ul {
   }
   
   li a:hover:not(.active) {
+    z-index: 1;
     background-color: #E6EDEF;
     border-radius: 30px;
   }
